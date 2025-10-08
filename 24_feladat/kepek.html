@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Felhőkarcolók</title>
+  <style>
+    h1 {
+      color: red;
+      text-align: center;
+    }
+
+    header {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a {
+      color: black;
+      margin: 10px;
+      font-size: 20px;
+      padding-right: 15px;
+    }
+
+    main {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .kep {
+      display: grid;
+      grid-template-columns: 1fr 1fr; 
+      gap: 10px; 
+      justify-content: center;
+      width: fit-content;
+      margin: 20px auto;
+    }
+
+    .kep img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Felhőkarcolók</h1>
+  </header>
+
+  <main>
+    <a href="index.html" style="border-right: 1px solid black;">fooldal</a>
+    <a href="szoveg.html" style="border-right: 1px solid black;">szoveg</a>
+    <a href="kepek.html" style="border-right: 1px solid black;">kepek</a>
+    <a href="tablazatok.html" style="border-right: 1px solid black;">tablazatok</a>
+    <a href="felsorolas.html">felsorolas</a>
+  </main>
+
+  <div class="kep">
+    <img src="taipei.jpg" alt="Taipei 101">
+    <img src="sears.jpg" alt="Sears Tower">
+    <img src="empire.jpg" alt="Empire State Building">
+    <img src="tuntex.jpg" alt="Tuntex Sky Tower">
+  </div>
+</body>
+</html>
